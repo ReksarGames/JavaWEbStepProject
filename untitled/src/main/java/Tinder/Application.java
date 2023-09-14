@@ -20,9 +20,6 @@ public class Application {
         resourceHandler.setWelcomeFiles(new String[] { "index.html" });
         resourceHandler.setResourceBase("./src/main/resources"); // Замените путь на ваш путь к ресурсам
 
-
-
-
         // Создание контекста приложения
         ServletContextHandler contextHandler = new ServletContextHandler(ServletContextHandler.SESSIONS);
         contextHandler.setContextPath("/");
