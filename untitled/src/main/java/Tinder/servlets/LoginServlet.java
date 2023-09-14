@@ -48,7 +48,7 @@ public class LoginServlet extends HttpServlet {
 
     private boolean isValidUser(String username) {
         return userProfileDAO.getAllProfiles() != null;
-
+        //TODO: Нету проверки юзера в дб
     }
 
 }

@@ -1,9 +1,9 @@
 package Tinder.dao;
 
-import Tinder.model.Profile;
 
+import Tinder.model.UserProfile;
 import java.util.List;
 
 public interface ProfileDao {
-    List<Profile> getAllProfiles();
+    List<UserProfile> getAllProfiles();
 }

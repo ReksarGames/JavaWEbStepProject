@@ -1,11 +1,11 @@
 package Tinder.dao;
 
-import Tinder.model.Profile;
+import Tinder.model.UserProfile;
 
 import java.util.List;
 
 public class UserDao {
-    public List<Profile> getAllProfiles() {
+    public List<UserProfile> getAllProfiles() {
         return null;
     }
 }

@@ -45,7 +45,6 @@ public class TemplateEngine {
         }
     }
 
-
     public void render(String template, HashMap<String, Object> data, HttpServletResponse resp) {
         resp.setCharacterEncoding(String.valueOf(StandardCharsets.UTF_8));
 
